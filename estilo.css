@@ -209,22 +209,16 @@
 
 }
 
-
-
-
-.contenedor-footer{
-    background-color: rgb(202, 244, 139);
-    position: static;
-    font-size: 16px;
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
 }
 
-.margen-footer i{
-    font-size: 20px;
-    color: rgb(9, 9, 9);
-    margin: 3px 0
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    pointer-events: none; 
+    cursor: default;
 }
-
-.footer-text{
-    position: relative;
-}
-
